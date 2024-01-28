@@ -1,5 +1,5 @@
 <script>
-	import { ArrowDownIcon, ChevronDownIcon, UserIcon } from "svelte-feather-icons";
+	import { ChevronDownIcon, UserIcon } from "svelte-feather-icons";
 </script>
 <div class="header dashboard @@headerClass">
 		<div class="container">
@@ -57,7 +57,7 @@
 										<span class="name">Thomas Christ</span>
 										<span class="arrow"><ChevronDownIcon /></span>
 									</div>
-									<div class="dropdown-menu dropdown-menu-end show">
+									<div class="dropdown-menu dropdown-menu-end">
 										<a href="profile.html" class="dropdown-item">
 											<UserIcon />
 											Profile
